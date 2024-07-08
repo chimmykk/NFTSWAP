@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy, testnethekla } from "./chains";
+import { testnethekla } from "./chains";
 
 export type NftContract = {
   address: string;
@@ -25,6 +25,14 @@ export const NFT_CONTRACTS: NftContract[] = [
     address: "0xF45bF31D5312a8ea3d9663e49aecC5527Bc36EB2",
     chain: testnethekla,
     title: "testdemo",
+    thumbnailUrl:
+      "https://ipfs.io/ipfs/QmY7yoJ1uhUgR6q4hquZnpgaVprjeSrt7PHnjpJi9Dgvru/4.png",
+    type: "ERC721",
+  },
+  {
+    address: "0xE7E062606FCF1Ab9CaAEe7258E7c5C2aB95BCe43",
+    chain: testnethekla,
+    title: "test",
     thumbnailUrl:
       "https://ipfs.io/ipfs/QmY7yoJ1uhUgR6q4hquZnpgaVprjeSrt7PHnjpJi9Dgvru/4.png",
     type: "ERC721",
